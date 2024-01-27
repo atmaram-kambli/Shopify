@@ -12,7 +12,7 @@ function Navbar() {
         <Link to='/'>
             <div className="nav-logo">
                 <img src={logo} width={50} alt="Shopify" />
-                <p>Shopify</p>
+                <p>SHOPIFY</p>
             </div>
         </Link>
         <ul className="nav-menu">

@@ -1,8 +1,20 @@
-import React from 'react'
+import React from 'react';
+import './Item.css';
 
-const Item = () => {
+const Item = (props) => {
   return (
-    <div>Item</div>
+    <div className='item'>
+        <img src={props.img} alt={props.name} />
+        <p>{props.name}</p>
+        <div className='item-prices'>
+          <div className='item-new-price'>
+            ${props.new_price}
+          </div>
+          <div className='item-old-price'>
+            ${props.old_price}
+          </div>
+        </div>
+    </div>
   )
 }
 
