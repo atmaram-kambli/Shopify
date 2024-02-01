@@ -284,7 +284,7 @@ const all_product = [
         new_price: 35.0,
         old_price: 45.0
     },{
-        id: 1,
+        id: 36,
         name: "Men Yellow Printed Cotton Pure Cotton T-shirt",
         category: "Men",
         image: pic,
