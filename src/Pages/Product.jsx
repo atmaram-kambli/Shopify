@@ -7,7 +7,7 @@ import DescriptionBox from '../Components/DescriptionBox/DescriptionBox.jsx'
 import RelatedProduct from '../Components/RelatedProduct/RelatedProduct.jsx'
 
 const Product = () => {
-  const all_product = useContext(ShopContext)
+  const {all_product} = useContext(ShopContext)
   const { productID } = useParams();
   const product = all_product.find((item) => item.id === Number(productID));
   return (

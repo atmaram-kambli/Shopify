@@ -1,15 +1,15 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Shop from './Pages/Shop';
 import Cart from './Pages/Cart';
 import Product from './Pages/Product';
+import Navbar from './Components/Navbar/Navbar';
 import LoginSignup from './Pages/LoginSignup';
 import ShopCategory from './Pages/ShopCategory';
 import Footer from './Components/Footer/Footer';
 import banner_img_1 from './Components/Assets/logo.png';
 import banner_img_2 from './Components/Assets/logo.png';
 import banner_img_3 from './Components/Assets/logo.png';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
